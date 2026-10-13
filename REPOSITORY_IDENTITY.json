@@ -1,0 +1,17 @@
+{
+  "project_id": "am-dbr",
+  "display_name": "AM-DBR: Adaptive-Memory Direct Binned Recalibration",
+  "method_name": "Adaptive-Memory Direct Binned Recalibration",
+  "method_abbreviation": "AM-DBR",
+  "paper_title": "Adaptive-Memory Online Distributional Recalibration under Distribution Shift",
+  "paper_version": "v1.4.0",
+  "paper_revision": "R18",
+  "numerical_core_version": "code-v1.2.0",
+  "documentation_version": "docs-v1.4.0",
+  "packaging_id": "R18-repository-20261013",
+  "prepared_date": "2026-10-13",
+  "publication_status": "prepared_locally_not_published",
+  "anonymous_url": null,
+  "numerical_source_sha256": "e74b3647b9c51eb1f8b4fb0e53fd7ec9fd756a198d7f9b49c969222414a9dfed",
+  "scope": "Repository presentation and IDE/Jupyter entry-point names only. Numerical methods, parameters, third-party reference sources and reference-result CSV files are unchanged."
+}

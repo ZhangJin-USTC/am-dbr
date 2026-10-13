@@ -1,0 +1,15 @@
+{
+  "release": "v1.2.0",
+  "core_source_sha256": "059fd79cf10b4e1e45ff9ac7fefd1ab406552012fa2014e8145647778bae128e",
+  "description": "Reference metric summaries from the inspected corrective runs used by the candidate paper; not independent new experiments. Runtime excluded.",
+  "files": {
+    "real.csv": "098ad50d31c2f72cd903b983dc76d73f1d9ea1e9d9c28e717d332d1ae420dc42",
+    "state.csv": "2807825fba3e3959f254ce39ad0af26985e483a32e821b06923006601affb5cd",
+    "synthetic.csv": "02bd9136b870bd03fd04b0c476d33fb6e5e5c448b64d9e1a1bae0a3dfaf099bf",
+    "windows.csv": "fe7df7dcef00c4cc4e90af9ef796f72961795b5b56f06b6c2e62bea66648ccdb"
+  },
+  "inherited_from": "v1.0.0-rc.5",
+  "numerical_values_changed": false,
+  "v120_source_sha256": "e74b3647b9c51eb1f8b4fb0e53fd7ec9fd756a198d7f9b49c969222414a9dfed",
+  "source_provenance_note": "core_source_sha256 is the inherited reference-run source. v120_source_sha256 is the current presentation-aware package source; numerical algorithms and CSV bytes are unchanged."
+}

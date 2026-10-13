@@ -1,0 +1,14 @@
+{
+  "documentation_release": "docs-v1.4.0",
+  "numerical_release": "code-v1.2.0",
+  "source_sha256": "e74b3647b9c51eb1f8b4fb0e53fd7ec9fd756a198d7f9b49c969222414a9dfed",
+  "numerical_source_files_verified_unchanged": 24,
+  "reference_csv_files_verified_unchanged": 4,
+  "changes": "Expanded method presentation and generated coverage-width/interval-score assets; numerical methods, settings, data snapshots and locked reference CSVs unchanged.",
+  "existing_runs": "Outputs with the code-v1.2.0 source fingerprint may be reused after source/configuration/payload verification. Earlier rc.5/v1.1.0 fingerprints require an explicit historical compatibility audit and are rejected by ordinary run/report commands.",
+  "publication": "Remote repository upload and anonymous mirror synchronization have not been performed by this local preparation.",
+  "previous_documentation_release": "docs-v1.3.3",
+  "packaging_id": "R18-repository-20261013",
+  "repository_identity_file": "REPOSITORY_IDENTITY.json",
+  "repository_packaging_changes": "AM-DBR display identity; AM_DBR_local_verification.ipynb entry point; matching GUI instructions, notebook generator and launcher tests."
+}

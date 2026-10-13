@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Operational comparison of the closest recalibration tasks. ``All
+levels'' means that a single coherent object is shared across probability
+levels.}
+\label{tab:method-comparison}
+\begin{tabularx}{\textwidth}{@{}
+>{\raggedright\arraybackslash}p{0.19\textwidth}
+>{\raggedright\arraybackslash}p{0.20\textwidth}
+>{\raggedright\arraybackslash}p{0.18\textwidth}
+>{\raggedright\arraybackslash}X@{}}
+\toprule
+Method family & Updated object & Online state & Main distinction or limitation \\
+\midrule
+Static PIT/isotonic & Monotone PIT map & Retrospective sample & Coherent at all levels; no post-deployment adaptation. \\
+Rolling/weighted PIT-ECDF & PIT empirical CDF & Window or history & Direct full-distribution predecessor; an exact implementation retains a growing history or a fixed window. \\
+DBR expert & Cumulative binned PIT CDF & $O(B)$ masses & One fixed temporal scale; explicit $n_{\mathrm{eff}}^{-1/2}+B^{-1}$ tracking decomposition. \\
+AM-DBR & Convex aggregate of DBR maps & $O(KB)$ masses and $K$ weights & Horizon-independent state; switching-memory proper-score oracle. \\
+Scalar adaptive conformal & One threshold or level & Scalar state or expert set & Targets one interval level rather than one coherent predictive CDF. \\
+\bottomrule
+\end{tabularx}
+\end{table}
