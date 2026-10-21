@@ -1,0 +1,21 @@
+{
+  "release": "am-dbr-reproduction",
+  "status": "public reproduction package",
+  "python": "3.12",
+  "entrypoint": "reproduce.py",
+  "main_cells": 53,
+  "main_method_runs": 795,
+  "state_cells": 48,
+  "state_method_runs": 96,
+  "window_cells": 15,
+  "window_method_runs": 225,
+  "nominal_levels": [
+    0.95,
+    0.9,
+    0.8,
+    0.7,
+    0.5
+  ],
+  "method_scope": "AM-DBR is the proposed procedure; DBR is a building block/comparator and rank/PAV is a structural comparator.",
+  "data_scope": "Raw third-party data are not redistributed; source and license details are in docs/data_access.md."
+}

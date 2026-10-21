@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/salesforce/online_conformal",
+  "commit": "95790a9b9e4061166e6d7a8a13282e019b1a8663",
+  "purpose": "validation-only pinned reference evidence; independent of main experiment payloads",
+  "files": {
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "SOURCE.json": "fe7de056bcce2db3b9207fcef85c3b93807de1bcade11770935df7ae99618f25",
+    "online_conformal/faci.py": "6bd75dbe772d4f43b965f9873554cc587494426533c60a88f9b408049a165d30",
+    "online_conformal/nex_conformal.py": "7f37079f69cd3aec4364df1ef589294f9e3c4f58a7e472f40d901552fd99b8f2",
+    "online_conformal/ogd.py": "061604484f10f8a0465d45d69b80a441acfc41a46b1965378355110e27963b5d",
+    "online_conformal/saocp.py": "83f8845559786452aafabfafdf6c136ceaf9b9b3557fc5f8f9267fcec04d386f",
+    "online_conformal/utils.py": "88c8e7725f114ccd5c68ebd4adcd6804c523aa241fa62f2b29c2a95354d83fa1"
+  }
+}

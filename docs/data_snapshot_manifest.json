@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "paper_version": "the fixed protocol",
+  "recorded_snapshot_access": "2026-09-16",
+  "raw_data_included": false,
+  "all_raw_sha256_must_match": true,
+  "files": [
+    {
+      "dataset": "open_meteo_seattle_daily",
+      "filename": "open_meteo_seattle_daily.csv",
+      "bytes": 277776,
+      "sha256": "696af72bb5f1e6f2232d53a4042b6efd02d75fb378d0b50126c618e6ecf7215a",
+      "public_source_url": "https://archive-api.open-meteo.com/v1/archive?latitude=47.61&longitude=-122.33&start_date=1980-01-01&end_date=2025-12-31&daily=temperature_2m_mean&timezone=UTC",
+      "download_sources": [
+        {
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=47.61&longitude=-122.33&start_date=1980-01-01&end_date=2025-12-31&daily=temperature_2m_mean&timezone=UTC",
+          "format": "weather-json"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "license_evidence": "https://open-meteo.com/en/licence",
+      "serialization": "UTF-8 without BOM, CSV date/temperature_2m_mean, CRLF line endings, Python float text",
+      "attribution": "Weather data by Open-Meteo.com; extracted daily mean temperature 1980-2025; JSON reserialized to CSV. No values modified."
+    },
+    {
+      "dataset": "open_meteo_phoenix_daily",
+      "filename": "open_meteo_phoenix_daily.csv",
+      "bytes": 284442,
+      "sha256": "06d399967bcf4a3635556005f615a288b72ee3fb19fc557ed3302931051a05e7",
+      "public_source_url": "https://archive-api.open-meteo.com/v1/archive?latitude=33.45&longitude=-112.07&start_date=1980-01-01&end_date=2025-12-31&daily=temperature_2m_mean&timezone=UTC",
+      "download_sources": [
+        {
+          "url": "https://archive-api.open-meteo.com/v1/archive?latitude=33.45&longitude=-112.07&start_date=1980-01-01&end_date=2025-12-31&daily=temperature_2m_mean&timezone=UTC",
+          "format": "weather-json"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "license_evidence": "https://open-meteo.com/en/licence",
+      "serialization": "UTF-8 without BOM, CSV date/temperature_2m_mean, CRLF line endings, Python float text",
+      "attribution": "Weather data by Open-Meteo.com; extracted daily mean temperature 1980-2025; JSON reserialized to CSV. No values modified."
+    },
+    {
+      "dataset": "jena_climate",
+      "filename": "jena_climate_2009_2016.csv.zip",
+      "bytes": 13568290,
+      "sha256": "63d757501e92284a7de7cdbef0337f03b24e13ead7ac2b5b8c86a18d8e38ba5b",
+      "public_source_url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/jena_climate_2009_2016.csv.zip",
+      "download_sources": [
+        {
+          "url": "https://storage.googleapis.com/tensorflow/tf-keras-datasets/jena_climate_2009_2016.csv.zip",
+          "format": "raw"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "license_evidence": "https://www.bgc-jena.mpg.de/wetter/weather_data.html",
+      "attribution": "Max Planck Institute for Biogeochemistry, Jena weather station; 2009-2016 archive distributed by TensorFlow/Keras; raw archive unchanged."
+    },
+    {
+      "dataset": "metro_traffic",
+      "filename": "metro_interstate_traffic_volume.zip",
+      "bytes": 405547,
+      "sha256": "b99aeabcbd6cc86f642da3a79d90883425798f58abd3b3302da2fa19dda73768",
+      "public_source_url": "https://archive.ics.uci.edu/static/public/492/metro+interstate+traffic+volume.zip",
+      "download_sources": [
+        {
+          "url": "https://archive.ics.uci.edu/static/public/492/metro+interstate+traffic+volume.zip",
+          "format": "raw"
+        }
+      ],
+      "license": "CC-BY-4.0",
+      "license_evidence": "https://archive.ics.uci.edu/dataset/492/metro+interstate+traffic+volume",
+      "attribution": "Hogue, J. (2019), Metro Interstate Traffic Volume, UCI Machine Learning Repository, doi:10.24432/C5X60B; raw archive unchanged."
+    },
+    {
+      "dataset": "opsd_germany_daily",
+      "filename": "opsd_germany_daily.csv",
+      "bytes": 217983,
+      "sha256": "729b025d984497827cb6b89048d7c2c6a551e7aa727bc47ea0b74a2d1e84675d",
+      "public_source_url": "https://raw.githubusercontent.com/jenfly/opsd/master/opsd_germany_daily.csv",
+      "download_sources": [
+        {
+          "url": "https://api.github.com/repos/jenfly/opsd/contents/opsd_germany_daily.csv?ref=63472081622b39f53ff900b3d69c419c5b50e7aa",
+          "format": "github-content-json"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/jenfly/opsd/63472081622b39f53ff900b3d69c419c5b50e7aa/opsd_germany_daily.csv",
+          "format": "raw"
+        }
+      ],
+      "git_commit": "63472081622b39f53ff900b3d69c419c5b50e7aa",
+      "git_blob": "312bc7984e453559155b2df404c5f991148c3e08",
+      "license": "upstream-rights-not-established-for-redistribution",
+      "license_evidence": "https://open-power-system-data.org/legal/",
+      "upstream_release": "https://data.open-power-system-data.org/time_series/2018-06-30/",
+      "attribution": "Open Power System Data time_series 2018-06-30; daily preprocessing by Jennifer Walker in jenfly/opsd. The mirror MIT notice governs its software; no blanket data redistribution permission inferred."
+    }
+  ],
+  "weather_stability": "Historical weather responses can change. Exact authorized snapshots may be imported if they match the recorded hashes; raw data are not bundled."
+}
